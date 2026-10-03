@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jsonseo",
+  "version": "1.0.0",
+  "description": "Поисковая выдача и позиции сайта в Яндексе, Google и Bing, Яндекс Вордстат и прогноз бюджета Директа. SERP data, rankings, Yandex Wordstat and Direct forecasts for SEO.",
+  "author": { "name": "JSON SEO", "email": "support@jsonseo.ru", "url": "https://jsonseo.ru" },
+  "homepage": "https://jsonseo.ru/mcp-docs",
+  "repository": "https://github.com/jsonseo/openai-plugin",
+  "license": "MIT",
+  "keywords": ["seo", "serp", "yandex", "google", "bing", "wordstat"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "JSON SEO",
+        "category": "Marketing",
+        "icons": { "light": "./assets/icon.png" }
+      }
+    }
+  }
+}
